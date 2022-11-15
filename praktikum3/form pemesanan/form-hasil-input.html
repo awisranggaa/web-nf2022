@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Hasil Input</title>
+</head>
+<body>
+    <div id="wrapper" style="margin: 50px 150px;">
+        <div id="header" style="border: 2px solid black;">
+            <ul>
+                <li style="display: inline-block; padding-right: 10px; margin:5px 110px; border-right: 2px solid black;"><a style="text-decoration: none;" href="">Home</a></li>
+                <li style="display: inline-block; padding-right: 10px; margin:5px 110px; border-right: 2px solid black;"><a style="text-decoration: none;" href="">Register</a></li>
+                <li style="display: inline-block; padding-right: 10px; margin:5px 110px; border-right: 2px solid black;"><a style="text-decoration: none;" href="">Policy</a></li>
+                <li style="display: inline-block; padding-right: 10px; margin:5px 110px; border-right: 2px solid black;"><a style="text-decoration: none;" href="">About</a></li>
+            </ul>
+        </div>
+        <div id="content" style="margin: 50px 0px;">
+            <div class="content-left" style="float: left; width: 25%;">
+                <img src="" alt="" style="width: 100%; height: 300px; background-color: #000;">
+                <input type="submit" name="" value="Upload Picture" style="margin-top: 10px;">
+            </div>
+            <div class="content-right" style="float: right; width: 70%;">
+                <form action="">
+                    <table>
+                        <tr>
+                            <td>Title Here :</td>
+                            <td>
+                                <p>Macbook Air $800</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Description :</td>
+                            <td>
+                                <p>Year : 2009
+                                <br>Model : 
+                                <br>Condition : Mint
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Total Amount :</td>
+                            <td>
+                                <p>$800</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pay to :</td>
+                            <td>
+                                <p>123-456-789-0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Payment Type :</td>
+                            <td>
+                                <select id="pay-type" name="pay_type">
+                                  <option value="cash">Cash</option>
+                                  <option value="m-wallet">Mobile Wallet</option>
+                                  <option value="visa">Visa Debit</option>
+                                  <option value="m-banking">Mobile Banking</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Account Holder :</td>
+                            <td>
+                                <input type="text" required>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Account No :</td>
+                            <td>
+                                <input type="number" min="1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                            </td>
+                            <td>
+                                <div>
+                                <input id="phone" type="checkbox" >
+                                    <label for="phone">Send to Mobile Phone</label>
+                                </div>
+                                <div>
+                                <input id="email" type="checkbox" >
+                                    <label for="email">Send to Email</label>
+                                </div>
+                            </td>
+                        <tr>
+                            <td>Sent to mobile phone :</td>
+                            <td>
+                                <input type="text" name="title-here"></td>
+                        </tr>
+                        <tr>
+                        <tr>
+                            <td>Sent to email :</td>
+                            <td>
+                                <input type="text" name="title-here"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" value="Pay Using QuidLink">
+                            </td>    
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
