@@ -1,0 +1,58 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: pink;
+}
+
+header{
+    margin: 20px;
+    text-align: center;
+    background-color:aqua;
+    flex: 1;
+    height: 100px;
+}
+
+div{
+    display: flex;
+    min-height: 50vh;
+}
+
+aside{
+    margin: 20px;
+    flex: 1;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+h1{
+    text-align: center;
+    margin: 0 auto;
+}
+
+article{
+    margin: 20px;
+    flex: 2;
+    text-align: center;
+    background-color: palevioletred;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    margin: 20px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    margin: 20px;
+    text-align: center;
+    background-color: aqua;
+    height: 100px;
+}
