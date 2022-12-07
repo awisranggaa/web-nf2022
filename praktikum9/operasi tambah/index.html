@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operasi Pertambahan</title>
+
+</head>
+<body>
+    <h1>Operasi Pertambahan</h1>
+    <input type="number" onchange="add()" id="inAw"> +
+    <input type="number" onchange="add()" id="inAk"> =
+    <input type="number" id="out" readonly>
+
+
+    <script>
+        function add(){
+            let inX = document.getElementById("inAw").value;
+            let inY = document.getElementById("inAk").value;
+            var hasil = parseInt(inX) + parseInt(inY);
+            
+            document.getElementById('out').value = (hasil);
+            
+        }
+    </script>
+</body>
+</html>
